@@ -12,12 +12,12 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotEmpty;
+import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
+@Table(name="TB_PRODUTO")
 public class Product implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
