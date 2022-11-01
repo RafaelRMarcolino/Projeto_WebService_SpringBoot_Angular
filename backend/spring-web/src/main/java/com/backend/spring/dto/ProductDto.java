@@ -2,6 +2,8 @@ package com.backend.spring.dto;
 
 import java.io.Serializable;
 
+import javax.validation.constraints.DecimalMax;
+import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotEmpty;
 
 import com.backend.spring.entities.Product;
@@ -14,7 +16,7 @@ public class ProductDto implements Serializable {
 	@NotEmpty(message = "Necessario prencher o nome")
 	private String name;
 	
-	@NotEmpty(message =  "Necessario prencher o preço")
+	@DecimalMax("10000.0") @DecimalMin("1.0") 
 	private double price;
 	
 	public ProductDto() {
