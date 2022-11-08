@@ -1,0 +1,41 @@
+footer{
+
+    background-color: #000;
+    color: #fff;
+    border-top: 2px solid rgb(82, 76, 76);
+
+
+}
+
+*{
+    padding: 5px;
+}
+
+ul , a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover{
+    color: rgb(121, 160, 235);
+}
+
+li{
+    margin-left: 20px;
+}
+
+h3{
+    font-size: 20px;
+    color: rgb(121, 160, 235);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footerLogo{
+    font-size: 45px;
+    color: blueviolet;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5px;
+}
